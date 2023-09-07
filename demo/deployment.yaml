@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name:  demo
-        image: paulopanini/demo:latest
+        image: paulopanini/demo:
         imagePullPolicy: Always
         ports:
         - name: http
